@@ -10,7 +10,7 @@ import pandas as pd
 # from collections import Counter
 
 current_path = os.getcwd()
-model_path = os.path.join(current_path, 'static\\')
+model_path = os.path.join(current_path, 'static/')
 
 happy_tc = pickle.load(open(model_path+"model.pkl", "rb"))
 
